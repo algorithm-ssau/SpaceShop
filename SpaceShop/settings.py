@@ -35,7 +35,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    ##'frontend',
+    # 'frontend',
     # 'frontend',
     # 'corsheaders',
     # 'rest_framework'
@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
+    #'corsheaders.middleware.CorsMiddleware'
 ]
 
 ROOT_URLCONF = 'SpaceShop.urls'
@@ -70,6 +70,12 @@ TEMPLATES = [
         },
     },
 ]
+
+# White listing the localhost:3000 port
+# for React
+CORS_ORIGIN_WHITELIST = (
+    'http://localhost:3000'
+)
 
 STATICFILES_DIRS = [
     "templates"
@@ -125,9 +131,3 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-# White listing the localhost:3000 port
-# for React
-CORS_ORIGIN_WHITELIST = (
-    'http://localhost:3000'
-)
