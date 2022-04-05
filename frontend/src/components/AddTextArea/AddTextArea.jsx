@@ -6,7 +6,7 @@ const AddTextArea = () => {
     return (
         <div>
             <div>
-                <input placeholder="Find..." className="textarea"></input>
+                <input placeholder="Поиск..." className="textarea"></input>
             </div>
             <div>
                 <button className="Button"></button>

@@ -47,7 +47,7 @@
     left: 1650px;
     top: 1007px;
     border-radius: 53px;
-    background: url("../pictures/vk.png");
+    background: url("../../pictures/vk.png");
 }
 
 .yt{
@@ -57,7 +57,7 @@
     left: 1730px;
     top: 1007px;
     border-radius: 53px;
-    background: url("../pictures/yt.png");
+    background: url("../../pictures/yt.png");
 }
 
 .tl{
@@ -67,5 +67,5 @@
     left:1810px;
     top: 1007px;
     border-radius: 53px;
-    background: url("../pictures/tl.png");
+    background: url("../../pictures/gith.png");
 }
