@@ -1,12 +1,13 @@
 import React from "react";
 import './AddTextArea.css';
+import Input from "./Input";
 
 
 const AddTextArea = () => {
     return (
         <div>
             <div>
-                <input placeholder="Поиск..." className="textarea"></input>
+                <Input/>
             </div>
             <div>
                 <button className="Button"></button>

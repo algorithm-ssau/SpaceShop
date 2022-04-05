@@ -14,7 +14,7 @@
     left: 1409px;
     top: 392px;
 
-    font-family: 'Sansation', monospace;
+    font-family: 'Sansation Regular', monospace;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -30,7 +30,7 @@
     left: 1409px;
     top: 514px;
 
-    font-family: 'Sansation', monospace;
+    font-family: 'Sansation Regular', monospace;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -117,4 +117,14 @@
     line-height: 40px;
 
     color: #4A1553;
+}
+
+.banner{
+    position: absolute;
+    width: 771px;
+    height: 291px;
+    top:243px;
+    left: 526px;
+
+    background-image: url('../../pictures/banner.jpg');
 }

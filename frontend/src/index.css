@@ -4,11 +4,18 @@ src: url("fonts/sansation-light_[allfont.ru].ttf") format("truetype");
 font-style: normal;
 font-weight: normal;
 }
+@font-face {
+  font-family: "Sansation Regular";
+  src: url("fonts/ofont.ru_Sansation.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
 
 body {
   margin: 0;
   font-family: 'Sansation Light', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue','Sansation Regular',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
