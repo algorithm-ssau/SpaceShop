@@ -1,16 +1,24 @@
 import React from "react";
 import './AddTextArea.css';
-import Input from "./Input";
 
 
 const AddTextArea = () => {
+    let findenter = React.createRef();
+    let findbutton = () => {
+        let text = findenter.current.value;
+        alert(text);
+    }
     return (
         <div>
             <div>
-                <Input/>
+                <input
+                    placeholder="Поиск..."
+                    className="textarea"
+                    ref={findenter}>
+                </input>
             </div>
             <div>
-                <button className="Button"></button>
+                <button className="Button" onClick={findbutton}></button>
             </div>
         </div>
     );
