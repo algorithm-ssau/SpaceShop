@@ -1,17 +1,24 @@
 import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import FirstPage from "./components/FirstPage/FirstPage";
+import FirstCategory from "./components/FirstCategory/FirstCategory";
 
-function App() {
-  return (
-    <div>
-      <div className="Header"> </div>
-      <div className="HeaderName">SpaceShop</div>
-        <div className="logo"></div>
-      <div className="HeaderRef2">о нас</div>
-      <div className="HeaderRef1">помощь</div>
-        <div className="Footer"></div>
-    </div>
-  );
+
+const App = () => {
+    return (
+        <div>
+            <div><Header/></div>
+            <div>
+                <FirstPage/>
+            </div>
+            <div><FirstCategory/></div>
+            <div><Footer/></div>
+
+        </div>
+    );
 }
 
 export default App;

@@ -1,0 +1,32 @@
+.textarea{
+    position: absolute;
+    width: 688px;
+    height: 53px;
+    left: 438px;
+    top: 23px;
+    resize: none;
+    outline: none;
+    -moz-appearance: none;
+
+    background: rgba(242, 242, 242, 0.88);
+    border: 1px solid #959595;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    font-size:24px;
+    font-family: "Sansation", monospace;
+    padding-left: 15px;
+
+}
+
+
+.Button{
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    left: 1148px;
+    top: 23px;
+
+    background: url("../../pictures/find.png");
+    border-radius: 10px;
+}
