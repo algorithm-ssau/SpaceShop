@@ -1,6 +1,6 @@
 import React from "react";
 import './FirstCategory.css';
-import button from "bootstrap/js/src/button";
+//import button from "bootstrap/js/src/button";
 
 const FirstCategory = () =>{
     return(

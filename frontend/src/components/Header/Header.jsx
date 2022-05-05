@@ -1,7 +1,7 @@
 import React from "react";
 import './Header.css';
 import '../../App.css';
-import AddTextArea from "../AddTextArea/AddTextArea";
+import AddTextArea from "../FirstPage/AddTextArea/AddTextArea";
 
 const Header = () => {
     return(
