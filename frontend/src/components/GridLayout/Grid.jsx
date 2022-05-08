@@ -1,15 +1,15 @@
 import React from "react";
-import GridLayout from "react-grid-layout";
 import styled from "styled-components";
-import { Responsive, WidthProvider } from "react-grid-layout";
 import Catalog_Item from "../SecondPageRockets/Catalog_Item";
+import { Responsive, WidthProvider } from "react-grid-layout";
+
 
 const ResponsiveGridLayout = WidthProvider(Responsive);
 
 const layout = [
     { id: 0, i: "Планета 0", price: "3 950 000$", x: 0, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/originals/80/47/83/804783d61cab66cb3e61d30640d7522d.jpg" },
-    { id: 1, i: "Планета 1", price: "3 950 000$", x: 1, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/originals/80/47/83/804783d61cab66cb3e61d30640d7522d.jpg" },
-    { id: 2, i: "Планета 2", price: "3 950 000$", x: 2, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/originals/80/47/83/804783d61cab66cb3e61d30640d7522d.jpg" },
+    { id: 1, i: "Планета 1", price: "3 950 000$", x: 1, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/originals/24/7b/b6/247bb6fe2448d577cc41c2451b307ecc.jpg" },
+    { id: 2, i: "Планета 2", price: "3 950 000$", x: 2, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/originals/0d/ac/25/0dac251761458227a1a0c093aa7986d5.jpg" },
     { id: 3, i: "Планета 3", price: "3 950 000$", x: 3, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/originals/80/47/83/804783d61cab66cb3e61d30640d7522d.jpg" },
     { id: 4, i: "Планета 4", price: "3 950 000$", x: 0, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/originals/80/47/83/804783d61cab66cb3e61d30640d7522d.jpg" },
     { id: 5, i: "Планета 5", price: "3 950 000$", x: 1, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/originals/80/47/83/804783d61cab66cb3e61d30640d7522d.jpg" },
@@ -43,17 +43,22 @@ const Root = styled.div`
 export const Grid = () => {
     return (
         <Root>
-            <GridLayout layout={layout} cols={4} rowHeight={530} width={1439}>
+            <ResponsiveGridLayout
+                layouts={{ lg: layout }}
+                breakpoints={{ lg: 1500, md: 1300, sm: 900, xs: 200, xxs: 0 }}
+                cols={{ lg: 4, md: 4, sm: 3, xs: 2, xxs: 1 }}
+                rowHeight = {500}
+            >
                 {layout.map(function(item){
                     return (
-                        <GridItemWrapper key={item.i} draggable={false}>
-                            <GridItemContent><Catalog_Item  image={item.image} price={item.price} id={1} title={item.i}/></GridItemContent>
+                        <GridItemWrapper key={item.i}>
+                            <GridItemContent ><Catalog_Item  image={item.image} price={item.price} id={1} title={item.i}/></GridItemContent>
                         </GridItemWrapper>
                     );
                 })}
 
 
-            </GridLayout>
+            </ResponsiveGridLayout>
         </Root>
     );
 };

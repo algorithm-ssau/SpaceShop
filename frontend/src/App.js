@@ -3,6 +3,7 @@ import './App.css';
 import Header from "./components/Header/Header";
 import FirstPage from "./components/FirstPage/FirstPage";
 import SecondPageRockets from "./components/SecondPageRockets/SecondPageRockets"
+import SecondFooter from "./components/Footer/SecondFooter";
 
 
 
@@ -11,6 +12,7 @@ const App = () => {
         <div>
             <div><Header/></div>
             <div><SecondPageRockets/></div>
+            <div><SecondFooter/></div>
         </div>
     );
 }

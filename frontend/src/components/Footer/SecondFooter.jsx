@@ -4,8 +4,7 @@ import './Footer.css';
 
 const SecondFooter = () => {
     return (
-        <div>
-            <div className="footer2"/>
+        <div className="footer2">
             <div className="github2"/>
         </div>
     );

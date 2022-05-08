@@ -76,9 +76,7 @@ class SecondPageRockets extends Component{
                          <Grid className = ""></Grid>
                      </div>
                 </div>
-                <div className="footer2">
-                    <div className="github2"/>
-                </div>
+
             </div>
         );
     }

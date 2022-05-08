@@ -1,13 +1,19 @@
 
 .catalog_item {
 
-    height: 450px;
+    height: 430px;
+    width: 270px;
     background-color: #E6E6E6;
-    margin: 30px 15px 30px 15px;
+
     font-weight: 300;
     padding: 15px;
     border: 8px solid #FFFFFF;
     border-radius: 30px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
 
 }
 
@@ -41,7 +47,7 @@
 
 .catalog_item .item_stars{
 
-    margin-top: 85px;
+    margin-top: 70px;
 
     font-family: 'Roboto', monospace;
     font-style: normal;
