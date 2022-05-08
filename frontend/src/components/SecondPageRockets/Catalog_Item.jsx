@@ -7,8 +7,8 @@ function Catalog_Item({id, title, price, image}) {
             <div>
                 <img src={image}/>
             </div>
-            <div>
-                <div className="item_title">{title}</div>
+            <div className="item_title">{title}</div>
+            <div className="bottom_aligner">
                 <div className="item_stars">★5.0</div>
                 <div className="item_price">{price}</div>
             </div>
