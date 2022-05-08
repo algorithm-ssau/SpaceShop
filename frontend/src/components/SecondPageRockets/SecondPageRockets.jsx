@@ -3,6 +3,7 @@ import SecondFooter from "../Footer/SecondFooter";
 import './SecondPageRockets.css'
 import Catalog_Item from "./Catalog_Item";
 import './Catalog_Item.css';
+import {Grid} from "../GridLayout/Grid";
 
 
 const Items = [
@@ -72,29 +73,15 @@ class SecondPageRockets extends Component{
             <div>
                 <div className="area">
                      <div className="catalog">
-                         <div>
-                             {
-                                 Items.map(item => (
-                                     <div>
-                                     <Catalog_Item
-                                         key = {item.id}
-                                         id = {item.id}
-                                         title = {item.name}
-                                         price = {item.price}
-                                         image = {item.image}
-                                     />
-                                   </div>
-                                 ))
-                             }
-                         </div>
+                         <Grid className = ""></Grid>
                      </div>
                 </div>
-                <SecondFooter/>
+                <div className="footer2">
+                    <div className="github2"/>
+                </div>
             </div>
         );
     }
-
-
 }
 
 

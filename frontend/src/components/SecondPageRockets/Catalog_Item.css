@@ -1,12 +1,9 @@
 
-
 .catalog_item {
 
-    width: 250px;
-    height: 400px;
+    height: 450px;
     background-color: #E6E6E6;
-    margin-top: 25px;
-
+    margin: 30px 15px 30px 15px;
     font-weight: 300;
     padding: 15px;
     border: 8px solid #FFFFFF;
@@ -15,11 +12,13 @@
 }
 
 .catalog_item img {
-    position: center;
-    width: 250px;
-    height: 250px;
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 
-    top: 15px;
     border-radius: 20px;
 }
 
@@ -31,13 +30,18 @@
     line-height: 28px;
     letter-spacing: 0.005em;
 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
     margin-top: 7px;
     color: #121212;
 }
 
 .catalog_item .item_stars{
 
-    margin-top: 55px;
+    margin-top: 85px;
 
     font-family: 'Roboto', monospace;
     font-style: normal;
@@ -45,20 +49,28 @@
     font-size: 24px;
     line-height: 28px;
 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
     letter-spacing: 0.005em;
 
     color: #121212;
 }
 
 .catalog_item .item_price{
-    margin-top: -2px;
-
     font-family: 'Roboto', monospace;
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: 42px;
     letter-spacing: 0.005em;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 
     color: #121212;
 

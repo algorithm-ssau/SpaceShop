@@ -1,6 +1,6 @@
 .footer1{
     position: absolute;
-    width: 1920px;
+    width:100%;
     height: 78px;
     top: 998px;
 
@@ -22,9 +22,9 @@
 
 .footer2{
     position: absolute;
-    width: 1920px;
+    width:100%;
     height: 78px;
-    top: 1750px;
+    margin-top: -50px;
 
     background: #631A6D;
     /*border: 1px solid #FFFFFF;*/
@@ -36,8 +36,9 @@
     position: absolute;
     width: 64px;
     height: 64px;
-    left:1810px;
-    top:1758px;
+
+    right: 100px;
+    bottom: 8px;
     border-radius: 53px;
     background: url("../../pictures/gith.png");
 }
