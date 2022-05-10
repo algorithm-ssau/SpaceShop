@@ -23,8 +23,9 @@
 .footer2{
     position: absolute;
     width:100%;
-    height: 78px;
-    margin-top: -50px;
+    height: 8vh;
+    margin-bottom: -50px;
+    /*margin-top: -50px;*/
 
     background: #631A6D;
     /*border: 1px solid #FFFFFF;*/
@@ -33,12 +34,18 @@
 }
 
 .github2{
-    position: absolute;
-    width: 64px;
-    height: 64px;
+    position: relative;
+    width: 7vh;
+    height: 7vh;
 
-    right: 100px;
-    bottom: 8px;
-    border-radius: 53px;
-    background: url("../../pictures/gith.png");
+    display: block;
+    margin-left: auto;
+    margin-right: 10vw;
+
+    /*background: url("../../pictures/gith.png"); */
+}
+img {
+    width: auto;
+    max-height: 100%;
+    border-radius: 100%;
 }

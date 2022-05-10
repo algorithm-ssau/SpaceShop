@@ -31,7 +31,7 @@ body,
 .area .catalog {
 
     overflow: scroll;
-    margin-top: 64px;
+    margin-top: 2vh;
     background: #E6E6E6;
     width: 70vw;;
     height: 80vh;
