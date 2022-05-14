@@ -3,7 +3,7 @@ import SecondFooter from "../Footer/SecondFooter";
 import './SecondPageRockets.css'
 import Catalog_Item from "./Catalog_Item";
 import './Catalog_Item.css';
-import {Grid} from "../GridLayout/Grid";
+import {Grid} from "./GridLayout/Grid";
 
 
 const Items = [
