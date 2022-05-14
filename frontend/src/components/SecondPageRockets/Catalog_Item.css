@@ -2,18 +2,14 @@
 .catalog_item {
 
     height: 430px;
-    width: 270px;
     background-color: #E6E6E6;
 
     font-weight: 300;
     padding: 15px;
     border: 8px solid #FFFFFF;
     border-radius: 30px;
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
+    
+    margin-top: 8px;
 
 }
 
@@ -23,7 +19,7 @@
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 240px;
 
     border-radius: 20px;
 }
