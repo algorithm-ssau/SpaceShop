@@ -2,7 +2,7 @@ import React from "react";
 import './App.css';
 import Header from "./components/Header/Header";
 import FirstPage from "./components/FirstPage/FirstPage";
-import SecondPageRockets from "./components/SecondPageRockets/SecondPageRockets"
+import SecondPage from "./components/SecondPage/SecondPage"
 import SecondFooter from "./components/Footer/SecondFooter";
 
 
@@ -11,7 +11,7 @@ const App = () => {
     return (
         <div>
             <div><Header/></div>
-            <div><SecondPageRockets/></div>
+            <div><SecondPage id_page={3}/></div>
             <div><SecondFooter/></div>
         </div>
     );

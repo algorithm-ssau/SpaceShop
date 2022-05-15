@@ -1,9 +1,10 @@
 import React, {Component} from "react";
 import SecondFooter from "../Footer/SecondFooter";
-import './SecondPageRockets.css'
+import './SecondPage.css'
 import Catalog_Item from "./Catalog_Item";
 import './Catalog_Item.css';
 import {Grid} from "./GridLayout/Grid";
+import PropTypes from "prop-types";
 
 
 const Items = [
@@ -62,8 +63,8 @@ const Items = [
         'image' : 'https://ae04.alicdn.com/kf/HTB1X4DxQVXXXXckapXXq6xXFXXX0/-.jpg'
     }
 ]
-
-class SecondPageRockets extends Component{
+/*
+class SecondPage extends Component{
 
     state = {items: []};
 
@@ -73,14 +74,40 @@ class SecondPageRockets extends Component{
             <div>
                 <div className="area">
                      <div className="catalog">
-                         <Grid className = ""></Grid>
+                         <Grid/>
                      </div>
                 </div>
 
             </div>
         );
     }
+}*/
+
+const SecondPage = ({id_page}) => {
+        return (
+            <div>
+                <div className="area">
+                    <div>
+                        {{
+                            1: <div className="title">Ракеты</div>,
+                            2: <div className="title">Инопланетяне</div>,
+                            3: <div className="title">Космическая еда</div>,
+                            4: <div className="title">Планеты</div>,
+                            5: <div className="title">Спутники</div>,
+                            6: <div className="title">Экипировка</div>
+                        }[id_page] || <div>Результаты</div>}
+                    </div>
+                    <div className="catalog">
+                        <Grid/>
+                    </div>
+                </div>
+
+            </div>
+        );
 }
 
 
-export default SecondPageRockets;
+SecondPage.propTypes = {
+    id_page: PropTypes.number.isRequired
+};
+export default SecondPage;

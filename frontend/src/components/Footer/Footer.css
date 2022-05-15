@@ -34,6 +34,7 @@
 }
 
 .github2{
+    margin-top: 6px;
     position: relative;
     width: 7vh;
     height: 7vh;
@@ -41,9 +42,12 @@
     display: block;
     margin-left: auto;
     margin-right: 10vw;
+    border-radius: 53px;
 
-    /*background: url("../../pictures/gith.png"); */
+    background: url("../../pictures/gith.png");
+
 }
+
 img {
     width: auto;
     max-height: 100%;
