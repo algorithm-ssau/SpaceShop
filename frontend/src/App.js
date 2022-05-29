@@ -4,16 +4,16 @@ import Header from "./components/Header/Header";
 import FirstPage from "./components/FirstPage/FirstPage";
 import SecondPage from "./components/SecondPage/SecondPage"
 import {Link, Route, Routes} from "react-router-dom";
-
+import FirstFooter from "./components/Footer/FirstFooter";
 
 
 const App = () => {
     return (
         <>
-        <div>
-           <Header/>
-            <Link to="/"/>
-        </div>
+            <div>
+                <Header/>
+                <Link to="/"/>
+            </div>
             <Routes>
                 <Route path="/" element={<FirstPage/>}/>
                 <Route path="/rockets" element={<SecondPage id_page={1}/>}/>
@@ -23,9 +23,10 @@ const App = () => {
                 <Route path="/satellite" element={<SecondPage id_page={5}/>}/>
                 <Route path="/equipment" element={<SecondPage id_page={6}/>}/>
             </Routes>
-
+            <div>
+                <FirstFooter/>
+            </div>
         </>
-
     );
 }
 

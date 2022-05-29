@@ -1,13 +1,13 @@
 .Header {
-    position: absolute;
+    /*position: absolute;*/
     width: 100%;
     height: 97px;
     /*left: 1px;*/
-    top: 1px;
-
+    text-align: center;
     background: rgba(242, 242, 242, 0.8);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
+    /*display: inline-block;*/
+    display: block;
 }
 
 .HeaderName {
@@ -22,11 +22,11 @@
     font-weight: 500;
     font-size: 36px;
     line-height: 40px;
-
+    display: inline-block;
     color: #631A6D;
 }
 
-.HeaderRef1{
+.HeaderRef1 {
     position: absolute;
     width: 99px;
     height: 36px;
@@ -38,18 +38,18 @@
     font-weight: 300;
     font-size: 24px;
     line-height: 27px;
-
+    display: inline-block;
     color: #631A6D;
 }
 
-.HeaderRef2{
+.HeaderRef2 {
     position: absolute;
     width: 68px;
     height: 29px;
     left: 1532px;
     top: 36px;
-
-    font-family:'Sansation Light', monospace;;
+    display: inline-block;
+    font-family: 'Sansation Light', monospace;;
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
@@ -58,12 +58,23 @@
     color: #631A6D;
 }
 
-.logo{
+.logo {
     position: absolute;
     width: 53px;
     height: 53px;
     left: 46px;
     top: 23px;
-
-    background:url("../../pictures/logo.png");
+    display: inline-block;
+    background: url("../../pictures/logo.png");
 }
+
+
+.container {
+    width: 1920px;
+    height: 100%;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+}
+
+

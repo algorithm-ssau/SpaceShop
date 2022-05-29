@@ -1,142 +1,147 @@
-.picture{
+.picture {
     position: absolute;
     width: 392px;
     height: 222px;
     left: 1409px;
-    top: 134px;
-
-    background:url("../../pictures/JasonSt.png");
+    top: 34px;
+    background: url("../../pictures/JasonSt.png");
 }
-.text1{
+
+.text1 {
     position: absolute;
     width: 392px;
     height: 86px;
     left: 1409px;
-    top: 392px;
-
+    top: 292px;
     font-family: 'Sansation Regular', monospace;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
     line-height: 40px;
-
     color: #6D2876;
 }
 
-.text2{
+.text2 {
     position: absolute;
     width: 392px;
     height: 59px;
     left: 1409px;
-    top: 514px;
-
+    top: 414px;
     font-family: 'Sansation Regular', monospace;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 27px;
-
     color: #6D2876;
 }
 
-.partner1{
+.partner1 {
     position: absolute;
     width: 340px;
     height: 170px;
     left: 161px;
-    top: 777px;
-
+    top: 677px;
     border: 2px solid #CECECE;
     box-sizing: border-box;
     border-radius: 10px;
     background-image: url('../../pictures/partner1.png');
 }
-.partner1:hover{
-    box-shadow:0 0 15px rgba(189, 165, 187, 1);
+
+.partner1:hover {
+    box-shadow: 0 0 15px rgba(189, 165, 187, 1);
 }
 
-.partner2{
+.partner2 {
     position: absolute;
     width: 340px;
     height: 170px;
     left: 580px;
-    top: 777px;
-
+    top: 677px;
     border: 2px solid #CECECE;
     box-sizing: border-box;
     border-radius: 10px;
     background-image: url('../../pictures/partner2.png');
 }
-.partner2:hover{
-    box-shadow:0 0 15px rgba(189, 165, 187, 1);
+
+.partner2:hover {
+    box-shadow: 0 0 15px rgba(189, 165, 187, 1);
 }
 
-.partner3{
+.partner3 {
     position: absolute;
     width: 340px;
     height: 170px;
     left: 1000px;
-    top: 777px;
-
+    top: 677px;
     border: 2px solid #CECECE;
     box-sizing: border-box;
     border-radius: 10px;
     background-image: url('../../pictures/partner3.png');
 }
-.partner3:hover{
-    box-shadow:0 0 15px rgba(189, 165, 187, 1);
+
+.partner3:hover {
+    box-shadow: 0 0 15px rgba(189, 165, 187, 1);
 }
 
-.partner4{
+.partner4 {
     position: absolute;
     width: 340px;
     height: 170px;
     left: 1410px;
-    top: 777px;
-
+    top: 677px;
     border: 2px solid #CECECE;
     box-sizing: border-box;
     border-radius: 10px;
     background-image: url('../../pictures/partner4.png');
 }
-.partner4:hover{
-    box-shadow:0 0 15px rgba(189, 165, 187, 1);
+
+.partner4:hover {
+    box-shadow: 0 0 15px rgba(189, 165, 187, 1);
 }
 
-.text3{
+.text3 {
     position: absolute;
     width: 263px;
     height: 40px;
     left: 161px;
-    top: 713px;
-
-    font-family: 'Sansation Light',monospace;
+    top: 613px;
+    font-family: 'Sansation Light', monospace;
     font-style: normal;
     font-weight: 300;
     font-size: 36px;
     line-height: 40px;
-
     color: #4A1553;
 }
 
-.banner{
+.banner {
     position: absolute;
     width: 771px;
     height: 291px;
-    top:243px;
+    top: 143px;
     left: 526px;
-
     background-image: url('../../pictures/banner.jpg');
 }
 
-.poster{
+.poster {
     box-sizing: border-box;
-
     position: absolute;
     width: 1149px;
     height: 930px;
     left: 320px;
-    top: 98px;
-
+    top: 0px;
     background-image: url('../../pictures/poster_planets.png');
+}
+
+.container {
+    width: 1920px;
+    height: 100%;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+}
+
+.first-page {
+    height: 1000px;
+    width: 100%;
+    text-align: center;
 }
