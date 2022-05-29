@@ -16,7 +16,7 @@
     height: 64px;
     display: inline-block;
     right: 100px;
-    top: 8px;
+    top: 20px;
     border-radius: 53px;
     background: url("../../pictures/gith.png");
 }
@@ -25,8 +25,8 @@
     position: absolute;
     width: 64px;
     height: 64px;
-    left:1710px;
-    top:1006px;
+    right:200px;
+    top:20px;
     border-radius: 53px;
     background: url("../../pictures/vk.png");
 }
@@ -35,8 +35,8 @@
     position: absolute;
     width: 64px;
     height: 64px;
-    left:1710px;
-    top:1006px;
+    left:200px;
+    top:20px;
     border-radius: 53px;
     background: url("../../pictures/vk.png");
 }
