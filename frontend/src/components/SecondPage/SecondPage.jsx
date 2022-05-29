@@ -103,7 +103,6 @@ const SecondPage = ({id_page}) => {
 
                     <button className="triangle-up" onClick={() => {window.scrollTo(0, 0)}}></button>
                 </div>
-                <SecondFooter/>
             </div>
         );
 }
