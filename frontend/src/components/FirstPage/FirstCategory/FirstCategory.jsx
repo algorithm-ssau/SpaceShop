@@ -1,76 +1,73 @@
 import React from "react";
 import './FirstCategory.css';
-//import button from "bootstrap/js/src/button";
+import {Link} from "react-router-dom";
 
 const FirstCategory = () =>{
     return(
         <div>
-            <div><Rockets/></div>
-            <div><Inoman/></div>
-            <div><CosmoFood/></div>
-            <div><Planets/></div>
-            <div><Satellite/></div>
-            <div><Equipment/></div>
+            <div>
+                <Rockets/>
+            </div>
+            <div>
+                <Inoman/>
+            </div>
+            <div>
+                <CosmoFood/>
+            </div>
+            <div>
+                <Planets/>
+            </div>
+            <div>
+                <Satellite/>
+            </div>
+            <div>
+                <Equipment/>
+            </div>
         </div>
     );
 }
 export default FirstCategory;
 
-const Rockets = () => {
-    let findbutton = () => {
-        let text = 'Следите за обновлением. Скоро здесь появятся ракеты';
-        alert(text);}
-    return(
-        <div> <button className='rockets'  onClick={findbutton}> Ракеты </button>
-
-        </div>
+ const Rockets = () => {
+     return(
+        <Link to="/rockets">
+            <button className='rockets'>Ракеты</button>
+        </Link>
     );}
+
 
   const Inoman = () => {
-      let findbutton = () => {
-          let text = 'Следите за обновлением. Скоро здесь появятся инопланетяне';
-          alert(text);}
       return(
-          <div> <button className='Inoman'  onClick={findbutton}> Инопланетяне </button>
+          <Link to="/inoman">
+              <button className='Inoman'>Инопланетяне</button>
+          </Link>
+      );}
 
-          </div>
-        );}
  const CosmoFood = () => {
-     let findbutton = () => {
-         let text = 'Следите за обновлением. Скоро здесь появится Космическая Еда';
-         alert(text);}
      return(
-         <div> <button className='CosmoFood'  onClick={findbutton}> Космическая Еда </button>
-
-         </div>
-    );}
+         <Link to="/cosmofood">
+             <button className='CosmoFood'>Космическая еда</button>
+         </Link>
+     );}
 
 const Planets = () => {
-    let findbutton = () => {
-        let text = 'Следите за обновлением. Скоро здесь появятся планеты';
-        alert(text);}
     return(
-        <div> <button className='Planet'  onClick={findbutton}> Планеты </button>
-
-        </div>
+        <Link to="/planets">
+            <button className='Planet'> Планеты </button>
+        </Link>
     );}
 
 const Satellite = () => {
-    let findbutton = () => {
-        let text = 'Следите за обновлением. Скоро здесь появятся спутники';
-        alert(text);}
     return(
-        <div> <button className='Satellite'  onClick={findbutton}> Спутники </button>
-
-        </div>
+        <Link to="/satellite">
+            <button className='Satellite'>Спутники</button>
+        </Link>
     );}
 
 const Equipment = () => {
-    let findbutton = () => {
-        let text = 'Следите за обновлением. Скоро здесь появится экипировка';
-        alert(text);}
     return(
-        <div> <button className='Equipment'  onClick={findbutton}> Экипировка </button>
-
-        </div>
+        <Link to="/equipment">
+            <button className='Equipment'>Экипировка</button>
+        </Link>
     );}
+

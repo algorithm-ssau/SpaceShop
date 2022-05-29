@@ -128,3 +128,15 @@
 
     background-image: url('../../pictures/banner.jpg');
 }
+
+.poster{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1149px;
+    height: 930px;
+    left: 320px;
+    top: 98px;
+
+    background-image: url('../../pictures/poster_planets.png');
+}

@@ -1,10 +1,10 @@
-import React, {Component} from "react";
+import React from "react";
 import SecondFooter from "../Footer/SecondFooter";
 import './SecondPage.css'
-import Catalog_Item from "./Catalog_Item";
 import './Catalog_Item.css';
 import {Grid} from "./GridLayout/Grid";
 import PropTypes from "prop-types";
+
 
 
 const Items = [
@@ -101,7 +101,7 @@ const SecondPage = ({id_page}) => {
                         <Grid/>
                     </div>
                 </div>
-
+                <SecondFooter/>
             </div>
         );
 }

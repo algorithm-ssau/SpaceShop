@@ -23,10 +23,9 @@
 .footer2{
     position: absolute;
     width:100%;
-    height: 8vh;
+    height: 78px;
     margin-bottom: -50px;
     /*margin-top: -50px;*/
-
     background: #631A6D;
     /*border: 1px solid #FFFFFF;*/
     box-sizing: border-box;
@@ -36,8 +35,8 @@
 .github2{
     margin-top: 6px;
     position: relative;
-    width: 7vh;
-    height: 7vh;
+    width: 64px;
+    height: 64px;
 
     display: block;
     margin-left: auto;

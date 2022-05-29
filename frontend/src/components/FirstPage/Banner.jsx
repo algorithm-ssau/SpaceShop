@@ -4,7 +4,7 @@ import './FirstPage.css'
 const Banner = () => {
     return(
         <div>
-            <div className="banner"/>
+            <div className="poster"/>
         </div>
     );
 }
