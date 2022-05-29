@@ -23,7 +23,9 @@ const App = () => {
                 <Route path="/satellite" element={<SecondPage id_page={5}/>}/>
                 <Route path="/equipment" element={<SecondPage id_page={6}/>}/>
             </Routes>
+
         </>
+
     );
 }
 

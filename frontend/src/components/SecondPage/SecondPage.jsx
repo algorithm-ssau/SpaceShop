@@ -100,6 +100,8 @@ const SecondPage = ({id_page}) => {
                     <div className="catalog">
                         <Grid/>
                     </div>
+
+
                 </div>
                 <SecondFooter/>
             </div>
