@@ -1,6 +1,51 @@
 
-.rockets
+.rockets {
+    position: absolute;
+    width: 300px;
+    height: 55px;
+    left: 85px;
+    top: 100px;
+
+    border: 2px solid #CECECE;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: 'Sansation Light', monospace;;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 27px;
+
+    color: #631A6D;
+}
+
+/*.planetsss
 {
+    position: absolute;
+    width: 300px;
+    height: 55px;
+    left: 85px;
+    top: 225px;
+}*/
+.Inoman {
+    position: absolute;
+    width: 300px;
+    height: 55px;
+    left: 85px;
+    top: 150px;
+
+    border: 2px solid #CECECE;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: 'Sansation Light', monospace;;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 27px;
+
+    color: #631A6D;
+}
+
+.CosmoFood {
     position: absolute;
     width: 300px;
     height: 55px;
@@ -10,7 +55,7 @@
     border: 2px solid #CECECE;
     box-sizing: border-box;
     border-radius: 6px;
-    font-family:'Sansation Light', monospace;;
+    font-family: 'Sansation Light', monospace;;
     font-style: normal;
     font-weight: 300;
     font-size: 30px;
@@ -18,16 +63,8 @@
 
     color: #631A6D;
 }
-/*.planetsss
-{
-    position: absolute;
-    width: 300px;
-    height: 55px;
-    left: 85px;
-    top: 225px;
-}*/
-.Inoman
-{
+
+.Planet {
     position: absolute;
     width: 300px;
     height: 55px;
@@ -37,7 +74,7 @@
     border: 2px solid #CECECE;
     box-sizing: border-box;
     border-radius: 6px;
-    font-family:'Sansation Light', monospace;;
+    font-family: 'Sansation Light', monospace;;
     font-style: normal;
     font-weight: 300;
     font-size: 30px;
@@ -45,8 +82,8 @@
 
     color: #631A6D;
 }
-.CosmoFood
-{
+
+.Satellite {
     position: absolute;
     width: 300px;
     height: 55px;
@@ -56,7 +93,7 @@
     border: 2px solid #CECECE;
     box-sizing: border-box;
     border-radius: 6px;
-    font-family:'Sansation Light', monospace;;
+    font-family: 'Sansation Light', monospace;;
     font-style: normal;
     font-weight: 300;
     font-size: 30px;
@@ -64,8 +101,8 @@
 
     color: #631A6D;
 }
-.Planet
-{
+
+.Equipment {
     position: absolute;
     width: 300px;
     height: 55px;
@@ -75,45 +112,7 @@
     border: 2px solid #CECECE;
     box-sizing: border-box;
     border-radius: 6px;
-    font-family:'Sansation Light', monospace;;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 30px;
-    line-height: 27px;
-
-    color: #631A6D;
-}
-.Satellite
-{
-    position: absolute;
-    width: 300px;
-    height: 55px;
-    left: 85px;
-    top: 400px;
-
-    border: 2px solid #CECECE;
-    box-sizing: border-box;
-    border-radius: 6px;
-    font-family:'Sansation Light', monospace;;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 30px;
-    line-height: 27px;
-
-    color: #631A6D;
-}
-.Equipment
-{
-    position: absolute;
-    width: 300px;
-    height: 55px;
-    left: 85px;
-    top: 450px;
-
-    border: 2px solid #CECECE;
-    box-sizing: border-box;
-    border-radius: 6px;
-    font-family:'Sansation Light', monospace;;
+    font-family: 'Sansation Light', monospace;;
     font-style: normal;
     font-weight: 300;
     font-size: 30px;

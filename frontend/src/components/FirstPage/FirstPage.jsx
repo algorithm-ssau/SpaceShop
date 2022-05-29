@@ -8,13 +8,15 @@ import FirstCategory from "./FirstCategory/FirstCategory";
 import FirstFooter from "../Footer/FirstFooter";
 
 const FirstPage = () => {
-    return(
-        <div>
-            <JasonStateham/>
-            <Banner/>
-            <FirstCategory/>
-            <Partners/>
-            <FirstFooter/>
+    return (
+        <div className="first-page">
+            <div className="container">
+                <JasonStateham/>
+                <Banner/>
+                <FirstCategory/>
+                <Partners/>
+                {/*<FirstFooter/>*/}
+            </div>
         </div>
     );
 }
