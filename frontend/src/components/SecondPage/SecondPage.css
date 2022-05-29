@@ -59,3 +59,13 @@
 
     color: #121212;}
 
+.triangle-up {
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 1960px;
+    top: 1670px;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid purple;
+}

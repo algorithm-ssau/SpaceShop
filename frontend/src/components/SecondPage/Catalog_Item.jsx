@@ -11,6 +11,7 @@ function Catalog_Item({id, title, price, image}) {
             <div className="bottom_aligner">
                 <div className="item_stars">★5.0</div>
                 <div className="item_price">{price}</div>
+
             </div>
         </div>
     );
