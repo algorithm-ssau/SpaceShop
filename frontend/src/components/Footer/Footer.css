@@ -20,6 +20,26 @@
     border-radius: 53px;
     background: url("../../pictures/gith.png");
 }
+.vk1
+{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left:1710px;
+    top:1006px;
+    border-radius: 53px;
+    background: url("../../pictures/vk.png");
+}
+.vk2
+{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left:1710px;
+    top:1006px;
+    border-radius: 53px;
+    background: url("../../pictures/vk.png");
+}
 
 .footer2 {
     position: absolute;
