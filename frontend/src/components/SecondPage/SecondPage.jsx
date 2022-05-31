@@ -4,6 +4,7 @@ import './SecondPage.css'
 import './Catalog_Item.css';
 import {Grid} from "./GridLayout/Grid";
 import PropTypes from "prop-types";
+import FirstFooter from "../Footer/FirstFooter";
 
 
 
@@ -100,7 +101,6 @@ const SecondPage = ({id_page}) => {
                     <div className="catalog">
                         <Grid/>
                     </div>
-
                     <button className="triangle-up" onClick={() => {window.scrollTo(0, 0)}}></button>
                 </div>
             </div>

@@ -15,6 +15,7 @@ const App = () => {
                 <Link to="/"/>
             </div>
             <Routes>
+                <Route path="/" element={<FirstPage/>}/>
                 <Route path="/firstpage" element={<FirstPage id_page={7}/>}/>
                 <Route path="/rockets" element={<SecondPage id_page={1}/>}/>
                 <Route path="/inoman" element={<SecondPage id_page={2}/>}/>
