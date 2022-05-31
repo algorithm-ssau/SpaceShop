@@ -5,7 +5,7 @@ const FirstFooter = () => {
     return (
         <div className="footer1">
             <div className="container">
-                <div className="github1"/>
+                <a href="https://github.com/algorithm-ssau/SpaceShop.git" className='github1' target="_blank"/>
                 <a href="https://vk.com/space_shop_ss" className='vk1' target="_blank"/>
             </div>
         </div>
