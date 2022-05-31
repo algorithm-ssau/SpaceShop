@@ -2,6 +2,7 @@ import React from "react";
 import './Header.css';
 import '../../App.css';
 import AddTextArea from "../FirstPage/AddTextArea/AddTextArea";
+import {Link} from "react-router-dom";
 
 const Header = () => {
     return (
@@ -15,7 +16,9 @@ const Container = () => {
     return (
         <div className="container">
             <div className="HeaderName">SpaceShop</div>
-            <div className="logo"></div>
+            <Link to="/FirstPage">
+                <div className="logo" target="_blank"></div>
+            </Link>
             <About/>
             <Help/>
             <AddTextArea/>
