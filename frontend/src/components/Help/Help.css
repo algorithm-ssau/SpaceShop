@@ -1,0 +1,210 @@
+.card-container {
+    height: 370px;
+    perspective: 600px;
+    position: relative;
+    width: 400px;
+    top: 250px;
+    left: -140px;
+    background: url("../../pictures/fon4.F5bhC.jpg");
+}
+.card-container2 {
+    height: 370px;
+    perspective: 600px;
+    position: relative;
+    width: 400px;
+    top: -120px;
+    left: 300px;
+    background: url("../../pictures/fon3.O2NAD.jpg");
+}
+.card-container3 {
+    height: 370px;
+    perspective: 600px;
+    position: relative;
+    width: 400px;
+    top: -490px;
+    left: 740px;
+    background: url("../../pictures/fonfon.jpg");
+}
+.card-container4 {
+    height: 370px;
+    perspective: 600px;
+    position: relative;
+    width: 400px;
+    top: -860px;
+    left: 1180px;
+    background: url("../../pictures/fon6.KlroS.jpg");
+}
+.card-container5 {
+    height: 370px;
+    perspective: 600px;
+    position: relative;
+    width: 400px;
+    top: -1230px;
+    left: 1620px;
+    background: url("../../pictures/fon5.jpg");
+}
+.card {
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    width: 90%;
+    left: 30px;
+    top: 20px;
+}
+.card2 {
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    width: 90%;
+    left: 30px;
+    top: 50px;
+}
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.card .side {
+    backface-visibility: hidden;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    font-family: 'Sansation Regular', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 40px;
+    color: #ffffff;
+    top: 90px;
+}
+.card .back {
+    transform: rotateY(180deg);
+    font-size: 25px;
+    top: 10px;
+}
+.container {
+    width: 1920px;
+    height: 100%;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+}
+.help {
+    height: 1000px;
+    width: 100%;
+    text-align: center;
+}
+.text17 {
+    position: absolute;
+    width: 1800px;
+    height: 55px;
+    left: 200px;
+    top: 100px;
+    font-family: 'Sansation Regular', monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 40px;
+    color: #631A6D;
+}
+.text18 {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 1300px;
+    top: 85px;
+    font-family: 'Sansation Regular', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 60px;
+    color: #631A6D;
+}
+.text19 {
+    position: absolute;
+    width: 1800px;
+    height: 55px;
+    left: 340px;
+    top: 700px;
+    font-family: 'Sansation Regular', monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 40px;
+    color: #631A6D;
+}
+.text20 {
+    position: absolute;
+    width: 1800px;
+    height: 55px;
+    left: 700px;
+    top: 760px;
+    font-family: 'Sansation Light', monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+}
+.text21 {
+    position: absolute;
+    width: 1800px;
+    height: 55px;
+    left: 700px;
+    top: 810px;
+    font-family: 'Sansation Light', monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    color: #000000;
+}
+.text22 {
+    position: absolute;
+    width: 1800px;
+    height: 55px;
+    left: 700px;
+    top: 850px;
+    font-family: 'Sansation Light', monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    color: #000000;
+}
+.text23 {
+    position: absolute;
+    width: 1800px;
+    height: 55px;
+    left: 700px;
+    top: 910px;
+    font-family: 'Sansation Light', monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    color: #000000;
+}
+.text24 {
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    left: 1700px;
+    top: 910px;
+    font-family: 'Sansation Light', monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    color: #000000;
+}
+.pict3 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1850px;
+    top: 950px;
+    background: url("../../pictures/strelka.png");
+}
+
