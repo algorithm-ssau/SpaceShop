@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import styled from "styled-components";
 import Catalog_Item from "../Catalog_Item";
 import { Responsive, WidthProvider } from "react-grid-layout";
@@ -39,7 +39,16 @@ const Root = styled.div`
 `;
 
 
-export const Grid = () => {
+//export const Grid = () => {
+export const Grid = ({id_page}) => {
+
+    const [items, setItems] = useState(null)
+
+    useEffect(() => {
+        fetch('/' + id_page)
+            .then(result => result.json())
+            .then(body => setItems(body))
+    })
     return (
         <Root>
             <ResponsiveGridLayout
@@ -48,7 +57,7 @@ export const Grid = () => {
                 cols={{ lg: 4, md: 4, sm: 3, xs: 2, xxs: 1 }}
                 rowHeight = {500}
             >
-                {layout.map(function(item){
+                {items.map(function(item){
                     return (
                         <GridItemWrapper key={item.i}>
                             <GridItemContent ><Catalog_Item  image={item.image} price={item.price} id={1} title={item.i}/></GridItemContent>

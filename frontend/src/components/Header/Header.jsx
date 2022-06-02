@@ -16,7 +16,7 @@ const Container = () => {
     return (
         <div className="container">
             <div className="HeaderName">SpaceShop</div>
-            <Link to="/firstpage">
+            <Link to="/">
                 <div className="logo" target="_blank"></div>
             </Link>
             <About/>
