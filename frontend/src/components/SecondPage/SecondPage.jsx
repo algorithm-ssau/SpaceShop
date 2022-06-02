@@ -129,7 +129,8 @@ const SecondPage = ({id_page}) => {
                     </div>
                     <div className="catalog">
                         {/*<Grid/>*/}
-                        <Grid id_page={page}/>
+                        <Grid id_page={page}
+                        />
                     </div>
                     <div className="triangle-container">
                         <button className="triangle-up" onClick={() => {window.scrollTo(0, 0)}}/>
@@ -138,6 +139,7 @@ const SecondPage = ({id_page}) => {
             </div>
         );
 }
+
 
 
 SecondPage.propTypes = {

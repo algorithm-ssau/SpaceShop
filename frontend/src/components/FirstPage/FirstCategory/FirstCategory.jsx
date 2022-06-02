@@ -29,11 +29,13 @@ const FirstCategory = () =>{
 export default FirstCategory;
 
  const Rockets = () => {
+
      return(
         <Link to="/rockets">
             <button className='rockets'>Ракеты</button>
         </Link>
-    );}
+    );
+ }
 
 
   const Inoman = () => {
@@ -46,7 +48,7 @@ export default FirstCategory;
  const CosmoFood = () => {
      return(
          <Link to="/cosmofood">
-             <button className='CosmoFood'>Космическая еда</button>
+             <button className='CosmoFood' >Космическая еда</button>
          </Link>
      );}
 

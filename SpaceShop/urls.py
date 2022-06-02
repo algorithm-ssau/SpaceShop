@@ -22,6 +22,6 @@ from django.urls import re_path as url
 urlpatterns = [
     path('', index),
     path('admin/', admin.site.urls),
-    path('', include('SpaceShop.main.urls')),
+   # path('', include('SpaceShop.main.urls')),
     url(r'^api/products/$', views.products_list),
 ]

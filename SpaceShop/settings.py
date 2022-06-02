@@ -36,7 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # 'frontend',
-    # 'frontend',
+    # 'client',
     'corsheaders',
     'rest_framework',
     'products'
@@ -97,6 +97,15 @@ DATABASES = {
     }
 }
 
+#DATABASES = {
+ #   'default': {
+  #      'ENGINE': 'django.db.backends.mysql',
+   #     'NAME': 'mydb',
+    #    'USER': 'root',
+     #   'PASSWORD': '1234',
+     #   'HOST': 'localhost',
+    #}
+#}
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
 

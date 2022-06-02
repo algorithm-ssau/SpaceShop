@@ -19,27 +19,27 @@ const Container = () => {
             <Link to="/">
                 <div className="logo" target="_blank"></div>
             </Link>
-            <About/>
-            <Help/>
-            <AddTextArea/>
+            <Help1/>
+            <About1/>
+            {/*<AddTextArea/>*/}
         </div>
     )
 }
 
 export default Header;
 
-const Help = () => {
+const Help1 = () => {
     return (
         <div className='HeaderRef1'>
-            <a href='#s'>помощь</a>
+            <Link to='/help'>помощь</Link>
         </div>
     );
 }
 
-const About = () => {
+const About1 = () => {
     return (
         <div className='HeaderRef2'>
-            <a href='#s'>о нас</a>
+            <Link to='/about'>о нас</Link>
         </div>
     );
 }
