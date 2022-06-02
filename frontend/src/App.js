@@ -7,7 +7,7 @@ import {Link, Route, Routes} from "react-router-dom";
 import FirstFooter from "./components/Footer/FirstFooter";
 
 
-const App = () => {
+const App = (props) => {
     return (
         <>
             <div>
