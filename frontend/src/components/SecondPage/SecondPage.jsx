@@ -101,7 +101,9 @@ const SecondPage = ({id_page}) => {
                     <div className="catalog">
                         <Grid/>
                     </div>
-                    <button className="triangle-up" onClick={() => {window.scrollTo(0, 0)}}></button>
+                    <div className="triangle-container">
+                        <button className="triangle-up" onClick={() => {window.scrollTo(0, 0)}}/>
+                    </div>
                 </div>
             </div>
         );

@@ -1,8 +1,8 @@
 .footer1{
-    position: absolute;
-    width:100%;
+    clear: both;
+    position: relative;
     height: 78px;
-    top: 998px;
+    margin-top: -78px;
 
     background: #631A6D;
     /*border: 1px solid #FFFFFF;*/
@@ -12,21 +12,21 @@
 
 .github1{
     position: absolute;
+    right: 200px;
+    margin-top: 5px;
     width: 64px;
     height: 64px;
-    left:2170px;
-    top:10px;
-    border-radius: 53px;
+    border-radius: 64px;
     background: url("../../pictures/gith.png");
 }
 .vk1
 {
     position: absolute;
+    right: 350px;
+    margin-top: 5px;
     width: 64px;
     height: 64px;
-    left:2070px;
-    top:10px;
-    border-radius: 53px;
+    border-radius: 64px;
     background: url("../../pictures/vk.png");
 }
 .vk2
