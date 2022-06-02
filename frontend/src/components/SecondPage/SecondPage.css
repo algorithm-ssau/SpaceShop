@@ -63,3 +63,19 @@
 
     color: #121212;}
 
+.triangle-up {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: transparent;
+}
+.triangle-container {
+    position: absolute;
+    right: 25px;
+    top: 1700px;
+    cursor:pointer;
+    border:none;
+    width:80px;
+    height:55px;
+    background: url("../../pictures/bpButton.png") no-repeat;
+}
