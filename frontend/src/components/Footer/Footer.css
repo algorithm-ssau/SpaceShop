@@ -2,7 +2,7 @@
     clear: both;
     position: relative;
     height: 78px;
-    margin-top: -78px;
+    margin-top: 50px;
 
     background: #631A6D;
     /*border: 1px solid #FFFFFF;*/
@@ -13,7 +13,7 @@
 .github1{
     position: absolute;
     right: 200px;
-    margin-top: 5px;
+    margin-top: 7px;
     width: 64px;
     height: 64px;
     border-radius: 64px;
@@ -23,7 +23,7 @@
 {
     position: absolute;
     right: 350px;
-    margin-top: 5px;
+    margin-top: 7px;
     width: 64px;
     height: 64px;
     border-radius: 64px;
