@@ -146,12 +146,16 @@ const Root = styled.div`
 export const Grid = ({id_page}) => {
 
     const [items, setItems] = useState(null)
+    const [timer, setTimer] =useState(false)
+    let norm = Math.floor(Math.random() * (2000 - 1000 + 1)) + 1000
+    useEffect(()=> {
+    const timeout = setTimeout(() => {
+    setTimer(true)
+    }, norm)
+    return () => clearTimeout(timeout)
+    }, [timer])
 
-    useEffect(() => {
-        fetch('/' + id_page)
-            .then(result => result.json())
-            .then(body => setItems(body))
-    })
+    if (!timer) return null
 
     function renderSwitch() {
         switch(id_page) {
