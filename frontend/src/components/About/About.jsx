@@ -10,10 +10,10 @@ const About = () => {
     return(
         <div className="help">
             <div className="container">
-            <Greatings/>
-            <InBorder/>
-            <Main/>
-        </div>
+                <Greatings/>
+                <InBorder/>
+                <Main/>
+            </div>
         </div>
     );
 }
