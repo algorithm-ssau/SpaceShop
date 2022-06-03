@@ -1,17 +1,17 @@
 .pict {
     position: absolute;
     width: 736px;
-    height: 1426px;
+    height: 780px;
     left: 1100px;
-    top: 40px;
-    background: url("../../pictures/js2.jpg");
+    top: 80px;
+    background: url("../../pictures/js21.jpg");
 }
 .text5 {
     position: absolute;
     width: 1000px;
     height: 55px;
     left: 200px;
-    top: 62px;
+    top: 32px;
     font-family: 'Sansation Regular', monospace;
     font-style: normal;
     font-weight: 500;
@@ -25,7 +25,7 @@
     width: 300px;
     height: 200px;
     left: 200px;
-    top: 140px;
+    top: 110px;
     font-family: 'Sansation Regular', monospace;
     font-style: normal;
     font-weight: 400;
@@ -38,7 +38,7 @@
     width: 100px;
     height: 100px;
     left: 620px;
-    top: 120px;
+    top: 90px;
     background: url("../../pictures/moon-100x100.png");
 }
 
@@ -47,7 +47,7 @@
     width: 1000px;
     height: 55px;
     left: 300px;
-    top: 350px;
+    top: 250px;
     font-family: 'Sansation Regular', monospace;
     font-style: normal;
     font-weight: 200;
@@ -60,7 +60,7 @@
     width: 700px;
     height: 55px;
     left: 300px;
-    top: 430px;
+    top: 310px;
     font-family: 'Sansation Regular', monospace;
     font-style: normal;
     font-weight: 400;
@@ -73,7 +73,7 @@
     width: 1000px;
     height: 55px;
     left: 300px;
-    top: 520px;
+    top: 400px;
     font-family: 'Sansation Light', monospace;
     font-style: italic;
     font-weight: 400;
@@ -84,7 +84,7 @@
 .text10 {
     position: absolute;
     left: 240px;
-    top: 320px;
+    top: 220px;
     width: 880px;	height: 240px; /* Размеры */
     border: 5px solid MediumVioletRed;
     padding: 5px;
@@ -95,7 +95,7 @@
     width: 1000px;
     height: 55px;
     left: 200px;
-    top: 700px;
+    top: 530px;
     font-family: 'Sansation Light', monospace;
     font-style: normal;
     font-weight: 400;
@@ -108,7 +108,7 @@
     width: 1000px;
     height: 55px;
     left: 200px;
-    top: 900px;
+    top: 700px;
     font-family: 'Sansation Light', monospace;
     font-style: normal;
     font-weight: 400;
@@ -137,7 +137,7 @@
     position: relative;
 }
 .help {
-    height: 1500px;
+    height: 1000px;
     width: 100%;
     text-align: center;
 }
