@@ -5,21 +5,8 @@ import { Responsive, WidthProvider } from "react-grid-layout";
 
 const ResponsiveGridLayout = WidthProvider(Responsive);
 
-const layout = [
-    { id: 0, i: "Планета 0", price: "3 950 000$", x: 0, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/originals/80/47/83/804783d61cab66cb3e61d30640d7522d.jpg" },
-    { id: 1, i: "Планета 1", price: "3 950 000$", x: 1, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/originals/24/7b/b6/247bb6fe2448d577cc41c2451b307ecc.jpg" },
-    { id: 2, i: "Планета 2", price: "3 950 000$", x: 2, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/originals/80/47/83/804783d61cab66cb3e61d30640d7522d.jpg" },
-    { id: 3, i: "Планета 3", price: "3 950 000$", x: 3, y: 0, w: 1, h: 1, image: "https://www.meme-arsenal.com/memes/574cf23e805f378372549fdcb71805e1.jpg" },
-    { id: 4, i: "Планета 4", price: "3 950 000$", x: 0, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/originals/80/47/83/804783d61cab66cb3e61d30640d7522d.jpg" },
-    { id: 5, i: "Планета 5", price: "3 950 000$", x: 1, y: 0, w: 1, h: 1, image: "https://image.winudf.com/v2/image1/Y29tLlNwYWNlTGl2ZVdhbGxwYXBlckhESFFfc2NyZWVuXzNfMTU2Njk5ODc5NF8wNTU/screen-3.jpg?fakeurl=1&type=.jpg" },
-    { id: 6, i: "Планета 6", price: "3 950 000$", x: 2, y: 0, w: 1, h: 1, image: "https://hdwallsbox.com/wallpapers/l/1920x1200/47/landscapes-stars-planets-digital-art-creative-1920x1200-46145.jpg" },
-    { id: 7, i: "Планета 7", price: "3 950 000$", x: 3, y: 0, w: 1, h: 1, image: "https://img2.goodfon.ru/original/3800x3000/9/2e/planets-satellites-planety.jpg" },
-    { id: 8, i: "Планета 8", price: "3 950 000$", x: 0, y: 0, w: 1, h: 1, image: "https://ae04.alicdn.com/kf/HTB1X4DxQVXXXXckapXXq6xXFXXX0/-.jpg" },
-    { id: 9, i: "Планета 9", price: "3 950 000$", x: 1, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/originals/80/47/83/804783d61cab66cb3e61d30640d7522d.jpg" },
-    { id: 10, i: "Планета 10", price: "3 950 000$", x: 2, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/originals/80/47/83/804783d61cab66cb3e61d30640d7522d.jpg" },
-    { id: 11, i: "Планета 11", price: "3 950 000$", x: 3, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/originals/80/47/83/804783d61cab66cb3e61d30640d7522d.jpg" },
-    { id: 12, i: "Планета 12", price: "3 950 000$", x: 0, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/originals/80/47/83/804783d61cab66cb3e61d30640d7522d.jpg" },
-    { id: 13, i: "Планета 13", price: "3 950 000$", x: 1, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/originals/80/47/83/804783d61cab66cb3e61d30640d7522d.jpg" },
+const null_layout = [
+
 ];
 
 const planets = [
@@ -44,6 +31,7 @@ const planets = [
     { id: 18, i: "Гина", price: "8 926 540$", x: 2, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/564x/1f/3e/bc/1f3ebce6b006f1e7e6f3f77570ff62e8.jpg" },
     { id: 19, i: "Гиперион", price: "11 362 999$", x: 3, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/564x/c3/4d/79/c34d7942a1e6005ce37044aa2762bfa0.jpg" },
     { id: 20, i: "Пирос", price: "14 666 999$", x: 0, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/564x/30/17/a2/3017a27633c11c84b8ec29b744937b41.jpg" },
+    { id: 21, i: "Земля", price: "120 500 000$", x: 1, y: 0, w: 1, h: 1, image: "https://www.meme-arsenal.com/memes/574cf23e805f378372549fdcb71805e1.jpg" },
 ];
 
 const rockets = [
@@ -94,10 +82,19 @@ const aliens = [
     { id: 20, i: "Бялини", price: "66 999$", x: 0, y: 0, w: 1, h: 1, image: " https://i.pinimg.com/564x/49/64/dd/4964dd3f682c9270a63a453e332b518d.jpg" },
 
 ]
+
 const cosmofood = [
-
-
+    { id: 0, i: "Набор космонавта", price: "50$", x: 0, y: 0, w: 1, h: 1, image: "https://avatars.mds.yandex.net/i?id=3a02f48a835570993dccd94de8afd484-5875933-images-thumbs&n=13" },
+    { id: 1, i: "Шаурма с курицей", price: "10$", x: 1, y: 0, w: 1, h: 1, image: "https://avatars.mds.yandex.net/get-mpic/5220903/img_id3378970885649526457.jpeg/orig" },
+    { id: 2, i: "Техасский бургер", price: "9$", x: 2, y: 0, w: 1, h: 1, image: "https://avatars.mds.yandex.net/get-mpic/4794619/img_id5438665148636600110.jpeg/orig" },
+    { id: 3, i: "Суп грибной", price: "10$", x: 3, y: 0, w: 1, h: 1, image: "https://avatars.mds.yandex.net/get-mpic/5235242/img_id9035707322488071214.jpeg/orig" },
+    { id: 4, i: "Борщ", price: "11$", x: 0, y: 0, w: 1, h: 1, image: "https://avatars.mds.yandex.net/get-mpic/4516625/img_id8405915236140567746.jpeg/orig" },
+    { id: 5, i: "Пюре с курицей", price: "15$", x: 1, y: 0, w: 1, h: 1, image: "https://avatars.mds.yandex.net/get-mpic/5236357/img_id8403681039899213590.png/orig" },
+    { id: 6, i: "Компот", price: "5$", x: 2, y: 0, w: 1, h: 1, image: "https://avatars.mds.yandex.net/get-mpic/5332815/img_id3398350520169209343.jpeg/orig" },
+    { id: 7, i: "Рисовая каша", price: "9$", x: 3, y: 0, w: 1, h: 1, image: "https://avatars.mds.yandex.net/get-mpic/5215227/img_id7200218997168200479.png/orig" },
+    { id: 8, i: "Мясо с гречкой", price: "11$", x: 0, y: 0, w: 1, h: 1, image: "https://avatars.mds.yandex.net/get-mpic/4407580/img_id3861951116059167217.jpeg/orig" },
 ]
+
 const satellite = [
     { id: 0, i: "SP-177", price: "90 000$", x: 0, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/564x/40/61/0a/40610a5c99306739e33dbeaf117d5c6e.jpg" },
     { id: 1, i: "SP-432", price: "90 560$", x: 1, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/564x/82/fe/eb/82feeb55f6388024b8066940bb073504.jpg" },
@@ -171,7 +168,7 @@ export const Grid = ({id_page}) => {
             case "cosmofood":
                 return cosmofood;
             default:
-                return layout;
+                return null_layout;
         }
     }
     
