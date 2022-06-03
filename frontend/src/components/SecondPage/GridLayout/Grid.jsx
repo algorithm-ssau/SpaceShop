@@ -120,7 +120,15 @@ const satellite = [
 ]
 
 const equipment = [
-
+    { id: 0, i: "Titan", price: "11 500$", x: 0, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/564x/a3/7d/ed/a37dedf8ba0a39b0f365f699448d5cff.jpg" },
+    { id: 1, i: "Guard", price: "10 000$", x: 1, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/564x/d8/92/01/d89201c1b13d1d9e6fd09c0e4500640b.jpg" },
+    { id: 2, i: "Steller", price: "19 800$", x: 2, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/564x/7e/82/a8/7e82a81adff055ded8713bc7f6760fcf.jpg" },
+    { id: 3, i: "Explore", price: "8 500$", x: 3, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/564x/72/0c/7c/720c7c65d5b0aef2021367e8904411f3.jpg" },
+    { id: 4, i: "Helmet", price: "1 800$", x: 0, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/564x/14/00/a9/1400a94bc4ba6fac393e394e78abeb7e.jpg" },
+    { id: 5, i: "Cosmopants", price: "1 500$", x: 1, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/564x/4a/71/b9/4a71b9ffdd559ffa05e0d39fd99aad00.jpg" },
+    { id: 6, i: "Space Boot", price: "1 000$", x: 2, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/564x/b3/83/64/b38364989e6e1f6a0c6e27a9d2ace97e.jpg" },
+    { id: 7, i: "LED Visor", price: "5 500$", x: 3, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/564x/1b/53/18/1b53187a8e8a6ea6a72509d8afd6308e.jpg" },
+    { id: 8, i: "Helmet-2", price: "2 200$", x: 0, y: 0, w: 1, h: 1, image: "https://i.pinimg.com/564x/00/9d/16/009d166d48de870ab8b3bed1a0b059e6.jpg" },
 ]
 
 
@@ -147,7 +155,7 @@ export const Grid = ({id_page}) => {
 
     const [items, setItems] = useState(null)
     const [timer, setTimer] =useState(false)
-    let norm = Math.floor(Math.random() * (2000 - 1000 + 1)) + 1000
+    let norm = Math.floor(Math.random() * (1500 - 500 + 1)) + 500
     useEffect(()=> {
     const timeout = setTimeout(() => {
     setTimer(true)
