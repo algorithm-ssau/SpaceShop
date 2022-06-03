@@ -80,7 +80,7 @@ const aliens = [
     { id: 18, i: "Говищины", price: "66 540$", x: 2, y: 0, w: 1, h: 1, image: " https://i.pinimg.com/564x/09/e9/87/09e9872472523c7b90bbc50d56395026.jpg" },
     { id: 19, i: "Мервикны", price: "92 999$", x: 3, y: 0, w: 1, h: 1, image: " https://i.pinimg.com/564x/92/cd/ff/92cdff46058e2920d3913cb31d8e741c.jpg" },
     { id: 20, i: "Бялини", price: "66 999$", x: 0, y: 0, w: 1, h: 1, image: " https://i.pinimg.com/564x/49/64/dd/4964dd3f682c9270a63a453e332b518d.jpg" },
-
+    { id: 20, i: "Космический батчер", price: "322 000$", x: 1, y: 0, w: 1, h: 1, image: "https://i.ibb.co/zbYXTKy/cosmopudge.png" },
 ]
 
 const cosmofood = [
