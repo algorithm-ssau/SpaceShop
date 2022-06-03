@@ -12,9 +12,3 @@
 3. npm run build
 3. Для удобного запуска создать скрипт в Edit configuration - Django server. В Environment variable указать: PYTHONUNBUFFERED=1;DJANGO_SETTINGS_MODULE=SpaceShop.settings
 4. Запуск сервера
-
-# SpaceShop
-# Здесь был Игорь))
-# Здесь была Настя!!!
-# Здесь был Коля!)
-# Наконец-то Катя тоже тут)
